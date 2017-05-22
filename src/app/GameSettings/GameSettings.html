@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="testbox">
+  <fieldset>
+    <!-- Form Name -->
+    <legend>Settings</legend>
+  <hr>
+  <!-- Text input for Width-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="WidthIn">Width</label>
+      <div class="col-md-2">
+        <input value="10" #WidthIn id="WidthIn" name="WidthIn" type="text" placeholder="10" class="form-control input-md">
+
+      </div>
+
+    </div>
+
+    <!-- Text input for Height-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="HeightIn">Height</label>
+      <div class="col-md-2">
+        <input value="10" #HeightIn id="HeightIn" name="HeightIn" type="text" placeholder="10" class="form-control input-md">
+
+      </div>
+    </div>
+
+    <!-- Text input for mines-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="MinesIn">Mines</label>
+      <div class="col-md-2">
+        <input value="5" #MinesIn id="MinesIn" name="MinesIn" type="text" placeholder="5" class="form-control input-md" >
+
+      </div>
+    </div>
+
+    <div class="container" (click)="onClick(WidthIn.value,HeightIn.value,MinesIn.value)">
+      <button class="btn btn-info">
+        start game
+      </button>
+    </div>
+
+  </fieldset>
+</div>
+</body>
+</html>

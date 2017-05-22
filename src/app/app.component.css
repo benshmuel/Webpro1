@@ -1,0 +1,67 @@
+@import url( https://fonts.googleapis.com/css?family=Montserrat );
+body {
+  background : #cccccc;
+}
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+table {
+  margin: auto;
+  position: relative;
+  top: 175px;
+  -webkit-user-select: none;
+}
+div, a {
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+td {
+  position: relative;
+  border: 0px #163e78 solid;
+  padding: 0px;
+  margin: 0px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 30px;
+}
+
+table div {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+}
+tr {
+  position: inherit;
+  top: 10px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+}
+.gamePanel{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 250px;
+  height: 150px;
+}
+.flag {
+  width: 40px;
+  height: 40px;
+}
+label {
+  color: #ebebeb;
+  font-size: large;
+  font-family: "Apple Braille";
+}
